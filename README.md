@@ -1,126 +1,139 @@
-# Abdallah Meaad - QA Engineer Portfolio
+# 🚀 Abdallah Meaad Portfolio
 
-## About Me
-
-Motivated QA Engineer with hands-on experience in Manual Testing, Automation Testing, API Testing, Regression Testing, and Software Quality Assurance.
-
-Passionate about improving software quality, identifying defects, and delivering reliable user experiences through structured testing methodologies and continuous quality improvement.
+A modern, responsive, and professional portfolio website for **Abdallah Meaad**, a Junior QA Software Engineer specializing in Manual Testing, Automation Testing, API Testing, and Software Quality Assurance.
 
 ---
 
-## Skills
+# ✨ Features
 
-### Software Testing
-
-* Manual Testing
-* Functional Testing
-* Regression Testing
-* Smoke Testing
-* Sanity Testing
-* Exploratory Testing
-* API Testing
-* Test Case Design
-* Bug Reporting
-* Defect Documentation
-* SDLC
-* STLC
-* Agile
-* Scrum
-
-### Automation Testing
-
-* Selenium WebDriver
-* Page Object Model (POM)
-* Test Automation Frameworks
-* Automated Test Execution
-
-### Programming & Database
-
-* C#
-* .NET Core
-* SQL Server
-* SQL Queries
-* REST APIs
-* JSON
-* HTML
-* CSS
-* JavaScript
-* OOP Concepts
-
-### Tools
-
-* Postman
-* Jira
-* Git
-* GitHub
-* SSMS
-* Visual Studio
+- Modern UI/UX Design
+- Fully Responsive
+- Dark / Light Mode
+- Smooth Animations
+- Typing Effect
+- Animated Statistics
+- Projects Showcase
+- Skills Section
+- Experience Timeline
+- Certifications
+- Contact Section
+- Download CV Button
+- SEO Optimized
+- Clean & Organized Code
 
 ---
 
-## Featured Projects
+# 📁 Project Structure
 
-### OrangeHRM PIM Testing
-
-* 80+ Test Cases
-* Functional Testing
-* Regression Testing
-* Bug Reporting
-* QA Documentation
-
-### SauceDemo Automation
-
-* Selenium Automation Framework
-* Python Automation Scripts
-* Page Object Model (POM)
-* Automated Test Execution
-
-### ShareLane Testing
-
-* 50+ Test Cases
-* 20+ Bugs Reported
-* Jira Tracking
-* Functional & Regression Testing
-
----
-
-## Testing Expertise
-
-✔ Manual Testing
-
-✔ Automation Testing
-
-✔ API Testing
-
-✔ Functional Testing
-
-✔ Regression Testing
-
-✔ Defect Tracking
-
-✔ Test Documentation
-
-✔ Quality Assurance
+```
+Portfolio/
+│
+├── index.html
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── main.js
+│
+├── images/
+│   ├── abdallah.png
+│   └── favicon.svg
+│
+├── assets/
+│   └── Abdallah_Meaad_QA_Engineer.pdf
+│
+└── README.md
+```
 
 ---
 
-## Contact
+# 🛠 Technologies Used
 
-📧 Email: [abdallahmead0@gmail.com](mailto:abdallahmead0@gmail.com)
-
-📱 WhatsApp: +20 1022656255
-
-💼 LinkedIn:
-https://www.linkedin.com/in/abdallah-meaad/
-
-💻 GitHub:
-https://github.com/AbdallahMEaad
-
-📍 Location:
-Cairo, Egypt
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Font Awesome
+- Google Fonts
+- EmailJS
 
 ---
 
-## Goal
+# 🚀 Getting Started
 
-Seeking opportunities as a QA Engineer where I can contribute to software quality, expand my automation testing skills, and help deliver reliable and high-quality products.
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/portfolio.git
+```
+
+Go to the project folder:
+
+```bash
+cd portfolio
+```
+
+Open the project:
+
+```
+index.html
+```
+
+or use VS Code Live Server.
+
+---
+
+# 📱 Responsive Design
+
+The website is optimized for:
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile Devices
+
+---
+
+# ⚡ Performance
+
+- Optimized Images
+- Smooth Animations
+- Lightweight Assets
+- Clean CSS
+- Optimized JavaScript
+
+---
+
+# 📬 Contact
+
+**Abdallah Meaad**
+
+Junior QA Software Engineer
+
+📧 Email
+
+your-email@example.com
+
+📱 Phone
+
++20 XXX XXX XXXX
+
+💼 LinkedIn
+
+https://linkedin.com/in/abdallah-meaad
+
+💻 GitHub
+
+https://github.com/ABdallahMEaad
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+# ⭐ If you like this project
+
+Don't forget to give it a ⭐ on GitHub.
