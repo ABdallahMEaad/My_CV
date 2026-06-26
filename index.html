@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<link href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath fill='%236366F1' d='M32 4l22 8v18c0 15-10 24-22 30C20 54 10 45 10 30V12z'/%3E%3Cpath fill='white' d='M26 33l-5-5-4 4 9 9 20-20-4-4z'/%3E%3C/svg%3E" rel="icon" type="image/svg+xml"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Abdallah Meaad — Junior QA Software Engineer</title>
+<meta content="Abdallah Meaad — Junior QA Software Engineer specializing in Manual Testing, Automation, and Quality Assurance." name="description"/>
+<meta content="QA Engineer, Software Testing, Selenium, Manual Testing, Automation, Software Quality Assurance" name="keywords"/>
+<meta content="Abdallah Meaad" name="author"/>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet"/>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<link href="css/style.css" rel="stylesheet"/></head>
+<body>
+<!-- Loading Screen -->
+<div class="loader" id="loader">
+<div class="loader-logo">ABDALLAH<span style="color: var(--text-primary); -webkit-text-fill-color: var(--text-primary);">.MEaad</span></div>
+<div class="loader-bar"><div class="loader-bar-fill"></div></div>
+</div>
+<!-- Animated Background -->
+<div class="bg-canvas">
+<div class="orb orb-1"></div>
+<div class="orb orb-2"></div>
+<div class="orb orb-3"></div>
+</div>
+<div class="grid-overlay"></div>
+<!-- Custom Cursor -->
+<div class="cursor-glow" id="cursorGlow"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+<div class="cursor-dot" id="cursorDot"></div>
+<!-- Scroll Progress -->
+<div class="scroll-progress" id="scrollProgress"></div>
+<!-- Navigation -->
+<nav class="nav" id="nav">
+<a class="nav-logo" href="#hero">ABDALLAH<span>.MEaad</span></a>
+<ul class="nav-links">
+<li><a data-link="" href="#about"> About</a></li>
+<li><a data-link="" href="#skills"> Skills</a></li>
+<li><a data-link="" href="#experience"> Journey</a></li>
+<li><a data-link="" href="#certifications"> Certifications</a></li>
+<li><a data-link="" href="#projects"> Projects</a></li>
+<li><a data-link="" href="#contact"> Contact</a></li>
+</ul>
+<div class="nav-actions">
+<button aria-label="Toggle theme" class="theme-toggle" id="themeToggle">
+<i class="fas fa-moon"></i>
+</button>
+<a class="nav-cta" href="#contact">Hire Me</a>
+<button aria-label="Menu" class="mobile-toggle" id="mobileToggle">
+<i class="fas fa-bars"></i>
+</button>
+</div>
+</nav>
+<!-- HERO -->
+<section class="hero" id="hero">
+<div class="hero-grid">
+<div class="hero-content">
+<div class="hero-greeting">
+<span class="pulse"></span>
+        Available for opportunities worldwide
+      </div>
+<h1 class="hero-name">
+        Hi, I'm <span class="gradient">Abdallah<br/>MEaad</span>
+</h1>
+<div class="hero-typing">
+<span>Junior QA Software Engineer</span>  | 
+        <span class="typed-text" id="typedText"></span><span class="cursor-blink"></span>
+</div>
+<div class="hero-tags">
+<span class="hero-tag"><i class="fas fa-check-circle"></i> Available for Internship</span>
+<span class="hero-tag"><i class="fas fa-briefcase"></i> Open to Work</span>
+<span class="hero-tag"><i class="fas fa-bolt"></i> Immediately Available</span>
+</div>
+<div class="hero-cta">
+<a class="btn btn-primary" data-ripple="" href="./Abdallah MEaad QA Software Engineer.pdf"><i class="fas fa-download"></i> Download CV</a>
+<a class="btn btn-secondary" data-ripple="" href="#projects"><i class="fas fa-rocket"></i> View Projects</a>
+<a class="btn btn-secondary" data-ripple="" href="#contact"><i class="fas fa-envelope"></i> Contact Me</a>
+</div>
+<div class="hero-socials">
+<a aria-label="GitHub" class="social-link" href="https://github.com/ABdallahMEaad" rel="noopener" target="_blank"><i class="fab fa-github"></i></a>
+<a aria-label="LinkedIn" class="social-link" href="https://www.linkedin.com/in/abdallah-meaad/" rel="noopener" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+<a aria-label="WhatsApp" class="social-link" href="https://wa.me/201022656255?text=Hello%20Abdallah,%20I%20found%20your%20portfolio%20and%20I'd%20like%20to%20connect." rel="noopener" target="_blank">
+<i class="fab fa-whatsapp"></i>
+</a>
+</div>
+</div>
+<div class="hero-visual">
+<div class="hero-image-wrap">
+<div class="hero-image">
+<img alt="Abdallah Meaad" src="./abdallah (3).png"/>
+</div>
+<div class="hero-floating-card hero-floating-card-1">
+<div class="icon"><i class="fas fa-bug"></i></div>
+<div>
+<div style="font-size:0.78rem;color:var(--text-muted);">Bugs Found</div>
+<div>147+</div>
+</div>
+</div>
+<div class="hero-floating-card hero-floating-card-2">
+<div class="icon"><i class="fas fa-vial"></i></div>
+<div>
+<div style="font-size:0.78rem;color:var(--text-muted);">Test Cases</div>
+<div>320+</div>
+</div>
+</div>
+<div class="hero-floating-card hero-floating-card-3">
+<div class="icon"><i class="fas fa-robot"></i></div>
+<div>
+<div style="font-size:0.78rem;color:var(--text-muted);">Automated</div>
+<div>20+ Scripts</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ABOUT -->
+<section id="about">
+<div class="reveal">
+<div class="section-eyebrow"><i class="fas fa-circle"></i> About Me</div>
+<h2 class="section-title">Crafting quality, <span class="gradient">one test at a time.</span></h2>
+<p class="section-subtitle">A passionate Junior QA Engineer on a mission to ship software that simply works — through meticulous testing, automation, and a relentless eye for detail.</p>
+</div>
+<div class="about-grid">
+<div class="about-stats reveal">
+<div class="stat-card">
+<div class="stat-icon"><i class="fas fa-project-diagram"></i></div>
+<div class="stat-number" data-count="12">0</div>
+<div class="stat-label">Projects Completed</div>
+</div>
+<div class="stat-card">
+<div class="stat-icon"><i class="fas fa-list-check"></i></div>
+<div class="stat-number" data-count="320">0</div>
+<div class="stat-label">Manual Test Cases</div>
+</div>
+<div class="stat-card">
+<div class="stat-icon"><i class="fas fa-code"></i></div>
+<div class="stat-number" data-count="45">0</div>
+<div class="stat-label">Automation Scripts</div>
+</div>
+<div class="stat-card">
+<div class="stat-icon"><i class="fas fa-bug"></i></div>
+<div class="stat-number" data-count="147">0</div>
+<div class="stat-label">Bug Reports Filed</div>
+</div>
+<div class="stat-card">
+<div class="stat-icon"><i class="fas fa-flask"></i></div>
+<div class="stat-number" data-count="18">0</div>
+<div class="stat-label">Testing Modules</div>
+</div>
+<div class="stat-card">
+<div class="stat-icon"><i class="fas fa-clock"></i></div>
+<div class="stat-number" data-count="1200">0</div>
+<div class="stat-label">Hours Learning</div>
+</div>
+</div>
+<div class="about-content reveal">
+<h3>My Mission</h3>
+<p>My mission is to be the invisible shield behind every release — catching defects before users ever notice them. I blend manual rigor with automation efficiency to ensure software is reliable, performant, and a joy to use.</p>
+<p>With a strong foundation in Computer Science and hands-on experience across web and API testing, I'm constantly expanding my toolkit in Selenium, PyTest, REST APIs, and modern QA workflows.</p>
+<div class="about-highlights">
+<div class="highlight-item"><i class="fas fa-check"></i> Detail-oriented mindset</div>
+<div class="highlight-item"><i class="fas fa-check"></i> Strong analytical skills</div>
+<div class="highlight-item"><i class="fas fa-check"></i> Team collaboration</div>
+<div class="highlight-item"><i class="fas fa-check"></i> Continuous learner</div>
+<div class="highlight-item"><i class="fas fa-check"></i> Agile &amp; Jira workflows</div>
+<div class="highlight-item"><i class="fas fa-check"></i> Bug advocacy</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SKILLS -->
+<section id="skills">
+<div class="reveal">
+<div class="section-eyebrow"><i class="fas fa-circle"></i> Skills &amp; Expertise</div>
+<h2 class="section-title">My <span class="gradient">technical toolkit.</span></h2>
+<p class="section-subtitle">A carefully curated set of skills spanning the full QA lifecycle — from exploratory manual testing to scalable automation frameworks.</p>
+</div>
+<div class="skills-grid">
+<div class="skill-card reveal">
+<div class="skill-icon"><i class="fas fa-microscope"></i></div>
+<h3>Software Testing</h3>
+<div class="skill-list">
+<div class="skill-item">
+<div class="skill-item-label"><span>Manual Testing</span><span>92%</span></div>
+<div class="skill-bar"><div class="skill-bar-fill" data-width="92"></div></div>
+</div>
+<div class="skill-item">
+<div class="skill-item-label"><span>Functional Testing</span><span>88%</span></div>
+<div class="skill-bar"><div class="skill-bar-fill" data-width="88"></div></div>
+</div>
+<div class="skill-item">
+<div class="skill-item-label"><span>Regression Testing</span><span>85%</span></div>
+<div class="skill-bar"><div class="skill-bar-fill" data-width="85"></div></div>
+</div>
+<div class="skill-item">
+<div class="skill-item-label"><span>Smoke &amp; Sanity</span><span>90%</span></div>
+<div class="skill-bar"><div class="skill-bar-fill" data-width="90"></div></div>
+</div>
+</div>
+</div>
+<div class="skill-card reveal">
+<div class="skill-icon"><i class="fas fa-code"></i></div>
+<h3>Programming</h3>
+<div class="skill-list">
+<div class="skill-item">
+<div class="skill-item-label"><span>Python</span><span>85%</span></div>
+<div class="skill-bar"><div class="skill-bar-fill" data-width="85"></div></div>
+</div>
+<div class="skill-item">
+<div class="skill-item-label"><span>JavaScript</span><span>75%</span></div>
+<div class="skill-bar"><div class="skill-bar-fill" data-width="75"></div></div>
+</div>
+<div class="skill-item">
+<div class="skill-item-label"><span>SQL</span><span>70%</span></div>
+<div class="skill-bar"><div class="skill-bar-fill" data-width="70"></div></div>
+</div>
+<div class="skill-item">
+<div class="skill-item-label"><span>HTML / CSS</span><span>80%</span></div>
+<div class="skill-bar"><div class="skill-bar-fill" data-width="80"></div></div>
+</div>
+</div>
+</div>
+<div class="skill-card reveal">
+<div class="skill-icon"><i class="fas fa-robot"></i></div>
+<h3>Automation Testing</h3>
+<div class="skill-list">
+<div class="skill-item">
+<div class="skill-item-label"><span>Selenium WebDriver</span><span>85%</span></div>
+<div class="skill-bar"><div class="skill-bar-fill" data-width="85"></div></div>
+</div>
+<div class="skill-item">
+<div class="skill-item-label"><span>PyTest</span><span>82%</span></div>
+<div class="skill-bar"><div class="skill-bar-fill" data-width="82"></div></div>
+</div>
+<div class="skill-item">
+<div class="skill-item-label"><span>Page Object Model</span><span>80%</span></div>
+<div class="skill-bar"><div class="skill-bar-fill" data-width="80"></div></div>
+</div>
+<div class="skill-item">
+<div class="skill-item-label"><span>Explicit Waits</span><span>88%</span></div>
+<div class="skill-bar"><div class="skill-bar-fill" data-width="88"></div></div>
+</div>
+</div>
+</div>
+<div class="skill-card reveal">
+<div class="skill-icon"><i class="fas fa-database"></i></div>
+<h3>Databases</h3>
+<div class="skill-list">
+<div class="skill-item">
+<div class="skill-item-label"><span>MySQL</span><span>72%</span></div>
+<div class="skill-bar"><div class="skill-bar-fill" data-width="72"></div></div>
+</div>
+<div class="skill-item">
+<div class="skill-item-label"><span>PostgreSQL</span><span>65%</span></div>
+<div class="skill-bar"><div class="skill-bar-fill" data-width="65"></div></div>
+</div>
+<div class="skill-item">
+<div class="skill-item-label"><span>SQLite</span><span>70%</span></div>
+<div class="skill-bar"><div class="skill-bar-fill" data-width="70"></div></div>
+</div>
+<div class="skill-item">
+<div class="skill-item-label"><span>DB Validation</span><span>68%</span></div>
+<div class="skill-bar"><div class="skill-bar-fill" data-width="68"></div></div>
+</div>
+</div>
+</div>
+<div class="skill-card reveal">
+<div class="skill-icon"><i class="fas fa-wrench"></i></div>
+<h3>Tools</h3>
+<div class="skill-list">
+<div class="skill-item">
+<div class="skill-item-label"><span>Postman</span><span>88%</span></div>
+<div class="skill-bar"><div class="skill-bar-fill" data-width="88"></div></div>
+</div>
+<div class="skill-item">
+<div class="skill-item-label"><span>SWagger</span><span>90%</span></div>
+<div class="skill-bar"><div class="skill-bar-fill" data-width="92"></div></div>
+</div>
+<div class="skill-item">
+<div class="skill-item-label"><span>Jira</span><span>90%</span></div>
+<div class="skill-bar"><div class="skill-bar-fill" data-width="90"></div></div>
+</div>
+<div class="skill-item">
+<div class="skill-item-label"><span>Git / GitHub</span><span>82%</span></div>
+<div class="skill-bar"><div class="skill-bar-fill" data-width="82"></div></div>
+</div>
+<div class="skill-item">
+<div class="skill-item-label"><span>VS Code</span><span>92%</span></div>
+<div class="skill-bar"><div class="skill-bar-fill" data-width="92"></div></div>
+</div>
+</div>
+</div>
+<div class="skill-card reveal">
+<div class="skill-icon"><i class="fas fa-users"></i></div>
+<h3>Soft Skills</h3>
+<div class="skill-list">
+<div class="skill-item">
+<div class="skill-item-label"><span>Communication</span><span>90%</span></div>
+<div class="skill-bar"><div class="skill-bar-fill" data-width="90"></div></div>
+</div>
+<div class="skill-item">
+<div class="skill-item-label"><span>Teamwork</span><span>92%</span></div>
+<div class="skill-bar"><div class="skill-bar-fill" data-width="92"></div></div>
+</div>
+<div class="skill-item">
+<div class="skill-item-label"><span>Problem Solving</span><span>88%</span></div>
+<div class="skill-bar"><div class="skill-bar-fill" data-width="88"></div></div>
+</div>
+<div class="skill-item">
+<div class="skill-item-label"><span>Time Management</span><span>85%</span></div>
+<div class="skill-bar"><div class="skill-bar-fill" data-width="85"></div></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+&lt;<!-- EXPERIENCE / EDUCATION TIMELINE -->
+<section id="experience">
+<div class="reveal">
+<div class="section-eyebrow">
+<i class="fas fa-circle"></i> Journey
+    </div>
+<h2 class="section-title">
+      My <span class="gradient">Journey.</span>
+</h2>
+<p class="section-subtitle">
+      From Computer Science education to military service, then transitioning into Software Quality Assurance through hands-on learning and real-world testing projects.
+    </p>
+</div>
+<div class="timeline">
+<!-- Education -->
+<div class="timeline-item reveal">
+<div class="timeline-dot">
+<i class="fas fa-graduation-cap"></i>
+</div>
+<div class="timeline-card">
+<span class="timeline-date">2020 — 2024</span>
+<h3>Bachelor of Computer Science</h3>
+<h4>Higher Technological Institute</h4>
+<p>
+          Graduated with a <strong>Good</strong> grade (GPA 2.76/4.0).
+          Built a strong foundation in Software Engineering, Algorithms,
+          Data Structures, Databases, and Web Technologies.
+        </p>
+<p>
+<strong>Graduation Project:</strong>
+          AI-powered Veterinary Platform for disease diagnosis using Machine Learning.
+          <strong>Grade: A</strong>.
+        </p>
+<div class="timeline-tags">
+<span>Computer Science</span>
+<span>Software Engineering</span>
+<span>Algorithms</span>
+<span>Databases</span>
+<span>AI Project</span>
+</div>
+</div>
+</div>
+<!-- Military -->
+<div class="timeline-item reveal">
+<div class="timeline-dot">
+<i class="fas fa-shield-alt"></i>
+</div>
+<div class="timeline-card">
+<span class="timeline-date">2025 — Jun 2026</span>
+<h3>Military Service</h3>
+<h4>Completed Successfully</h4>
+<p>
+          Successfully completed my mandatory military service while maintaining
+          my commitment to continuous learning and preparing for a professional
+          career in Software Quality Assurance.
+        </p>
+<div class="timeline-tags">
+<span>Discipline</span>
+<span>Responsibility</span>
+<span>Teamwork</span>
+<span>Time Management</span>
+</div>
+</div>
+</div>
+<!-- MaharaTech -->
+<div class="timeline-item reveal">
+<div class="timeline-dot">
+<i class="fas fa-certificate"></i>
+</div>
+<div class="timeline-card">
+<span class="timeline-date">Apr 2026</span>
+<h3>Software Testing </h3>
+<h4>MaharaTech</h4>
+<p>
+          Completed an intensive Software Testing program covering Manual Testing,
+          API Testing, Test Case Design, Bug Reporting, SDLC/STLC,
+          and Agile Testing methodologies.
+        </p>
+<div class="timeline-tags">
+<span>Manual Testing</span>
+<span>API Testing</span>
+<span>Postman</span>
+<span>SDLC</span>
+<span>STLC</span>
+<span>Agile</span>
+</div>
+</div>
+</div>
+<!-- QA Projects -->
+<div class="timeline-item reveal">
+<div class="timeline-dot">
+<i class="fas fa-flask"></i>
+</div>
+<div class="timeline-card">
+<span class="timeline-date">2026 — Present</span>
+<h3>QA Testing Projects</h3>
+<h4>Manual &amp; Automation Testing</h4>
+<p>
+          Applied QA concepts through real-world projects including OrangeHRM,
+          ShareLane, and SauceDemo. Designed comprehensive test cases, reported
+          defects using Jira, performed API testing with Postman, and developed
+          Selenium automation scripts using Python and the Page Object Model.
+        </p>
+<div class="timeline-tags">
+<span>OrangeHRM</span>
+<span>ShareLane</span>
+<span>SauceDemo</span>
+<span>Selenium</span>
+<span>Python</span>
+<span>Jira</span>
+</div>
+</div>
+</div>
+<!-- Goal -->
+<div class="timeline-item reveal">
+<div class="timeline-dot">
+<i class="fas fa-bullseye"></i>
+</div>
+<div class="timeline-card">
+<span class="timeline-date">Next Goal</span>
+<h3>Junior QA Engineer</h3>
+<h4>Available for Internship &amp; Full-Time Opportunities</h4>
+<p>
+          Currently seeking an opportunity as a Junior QA Engineer where I can
+          contribute to delivering high-quality software while continuously
+          growing my Manual and Automation Testing skills.
+        </p>
+<div class="timeline-tags">
+<span>QA Engineer</span>
+<span>Automation</span>
+<span>Continuous Learning</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+<div class="reveal">
+<div class="section-eyebrow">
+<i class="fas fa-circle"></i> Certifications
+    </div>
+<h2 class="section-title">
+      Courses &amp; <span class="gradient">Credentials.</span>
+</h2>
+<p class="section-subtitle">
+      Continuous learning has played a key role in building my technical and testing expertise through industry-focused training programs.
+    </p>
+</div>
+<div class="cert-grid">
+<!-- MaharaTech -->
+<div class="cert-card reveal">
+<div class="cert-badge">
+<i class="fas fa-vial"></i>
+</div>
+<h3>Software Testing </h3>
+<div class="cert-org">
+        MaharaTech • Apr 2026
+      </div>
+<p>
+        Completed comprehensive training in Manual Testing, Test Case Design,
+        Bug Reporting, API Testing using Postman, SDLC/STLC,
+        and Agile Testing methodologies.
+      </p>
+<div class="cert-tags">
+<span>Manual Testing</span>
+<span>API Testing</span>
+<span>Postman</span>
+<span>SDLC/STLC</span>
+<span>Agile</span>
+</div>
+</div>
+<!-- Route -->
+<div class="cert-card reveal">
+<div class="cert-badge">
+<i class="fas fa-server"></i>
+</div>
+<h3>Back-End (.NET Core) Diploma</h3>
+<div class="cert-org">
+        Route Academy • Jun – Nov 2023
+      </div>
+<p>
+        Studied C#, Object-Oriented Programming, SQL Server,
+        Entity Framework, ASP.NET Core Web API, MVC,
+        and Design Patterns while building scalable backend applications.
+      </p>
+<div class="cert-tags">
+<span>C#</span>
+<span>.NET Core</span>
+<span>SQL Server</span>
+<span>Web API</span>
+<span>MVC</span>
+</div>
+</div>
+<!-- Front-End -->
+<div class="cert-card reveal">
+<div class="cert-badge">
+<i class="fas fa-code"></i>
+</div>
+<h3>Front-End Diploma</h3>
+<div class="cert-org">
+        Senior Step Academy • Jun – Sep 2022
+      </div>
+<p>
+        Learned HTML5, CSS3, and JavaScript fundamentals,
+        building responsive websites and gaining practical knowledge
+        of modern web technologies.
+      </p>
+<div class="cert-tags">
+<span>HTML5</span>
+<span>CSS3</span>
+<span>JavaScript</span>
+<span>Responsive Design</span>
+</div>
+</div>
+</div>
+</section>
+<!-- LANGUAGES -->
+<section id="languages">
+<div class="reveal">
+<div class="section-eyebrow"><i class="fas fa-circle"></i> Languages</div>
+<h2 class="section-title">Speaking the <span class="gradient">global language.</span></h2>
+<p class="section-subtitle">Multilingual communication is a superpower in distributed engineering teams.</p>
+</div>
+<div class="languages-grid">
+<div class="lang-card reveal">
+<div class="lang-flag">🇪🇬</div>
+<div class="lang-info">
+<h3>Arabic</h3>
+<p>Native language</p>
+<span class="lang-level">Native Fluency</span>
+</div>
+</div>
+<div class="lang-card reveal">
+<div class="lang-flag">🇬🇧</div>
+<div class="lang-info">
+<h3>English</h3>
+<p>Professional working proficiency</p>
+<span class="lang-level">Working Proficiency</span>
+</div>
+</div>
+</div>
+</section>
+<!-- SERVICES -->
+<section id="services">
+<div class="reveal">
+<div class="section-eyebrow"><i class="fas fa-circle"></i> Services</div>
+<h2 class="section-title">What I can do <span class="gradient">for your team.</span></h2>
+<p class="section-subtitle">End-to-end quality services designed to ship reliable, polished software.</p>
+</div>
+<div class="services-grid">
+<div class="service-card reveal">
+<div class="service-icon"><i class="fas fa-hand-pointer"></i></div>
+<h3>Manual Testing</h3>
+<p>Exploratory &amp; structured manual testing to find real-world issues users care about.</p>
+</div>
+<div class="service-card reveal">
+<div class="service-icon"><i class="fas fa-robot"></i></div>
+<h3>Automation Testing</h3>
+<p>Reusable Selenium + PyTest frameworks that catch regressions before they reach production.</p>
+</div>
+<div class="service-card reveal">
+<div class="service-icon"><i class="fas fa-network-wired"></i></div>
+<h3>API Testing</h3>
+<p>End-to-end REST API validation using Postman and Python — status codes, schemas, performance.</p>
+</div>
+<div class="service-card reveal">
+<div class="service-icon"><i class="fas fa-bug"></i></div>
+<h3>Bug Reporting</h3>
+<p>Crystal-clear, reproducible bug reports that developers actually love reading.</p>
+</div>
+<div class="service-card reveal">
+<div class="service-icon"><i class="fas fa-list-check"></i></div>
+<h3>Test Case Design</h3>
+<p>Systematic test case authoring using black-box, boundary, and equivalence techniques.</p>
+</div>
+<div class="service-card reveal">
+<div class="service-icon"><i class="fas fa-rotate"></i></div>
+<h3>Regression Testing</h3>
+<p>Confident releases powered by curated regression suites that evolve with your product.</p>
+</div>
+<div class="service-card reveal">
+<div class="service-icon"><i class="fas fa-puzzle-piece"></i></div>
+<h3>Functional Testing</h3>
+<p>Verifying features against requirements — ensuring the product does exactly what it should.</p>
+</div>
+<div class="service-card reveal">
+<div class="service-icon"><i class="fas fa-shield-halved"></i></div>
+<h3>Quality Assurance</h3>
+<p>Process-level thinking to embed quality into every stage of the SDLC.</p>
+</div>
+</div>
+</section>
+<!-- PROJECTS -->
+<section id="projects">
+<div class="reveal">
+<div class="section-eyebrow"><i class="fas fa-circle"></i> Featured Work</div>
+<h2 class="section-title">Selected <span class="gradient">projects.</span></h2>
+<p class="section-subtitle">A handful of projects where I owned quality end-to-end — from test planning to automation.</p>
+</div>
+<div class="projects-grid">
+<article class="project-card reveal">
+<div class="project-image"><i class="fas fa-people-group"></i></div>
+<div class="project-body">
+<div class="project-tags"><span>Manual</span><span>Functional</span><span>HR System</span></div>
+<h3>OrangeHRM Manual Testing</h3>
+<p>Comprehensive manual QA engagement on OrangeHRM — validating HR workflows, employee management, leave policies, payroll flows, and role-based access across the entire admin &amp; employee portals.</p>
+<div class="project-meta">
+<div class="project-meta-item"><div class="label">Tests</div><div class="value">120+</div></div>
+<div class="project-meta-item"><div class="label">Bugs</div><div class="value">48</div></div>
+<div class="project-meta-item"><div class="label">Modules</div><div class="value">9</div></div>
+</div>
+</div>
+</article>
+<article class="project-card reveal">
+<div class="project-image"><i class="fas fa-robot"></i></div>
+<div class="project-body">
+<div class="project-tags"><span>Automation</span><span>Selenium</span><span>PyTest</span></div>
+<h3>SauceDemo Automation</h3>
+<p>End-to-end test automation of the SauceDemo e-commerce app using Python, Selenium WebDriver, and PyTest. Built on the Page Object Model with explicit waits, robust XPath &amp; CSS selector strategies.</p>
+<div class="project-meta">
+<div class="project-meta-item"><div class="label">Scripts</div><div class="value">25+</div></div>
+<div class="project-meta-item"><div class="label">Pass</div><div class="value">98%</div></div>
+<div class="project-meta-item"><div class="label">Coverage</div><div class="value">High</div></div>
+</div>
+</div>
+</article>
+<article class="project-card reveal">
+<div class="project-image"><i class="fas fa-cart-shopping"></i></div>
+<div class="project-body">
+<div class="project-tags"><span>QA</span><span>E-commerce</span><span>Testing</span></div>
+<h3>ShareLane Testing</h3>
+<p>Full QA coverage for the ShareLane e-commerce platform — including Registration, Login, Shopping Cart, and Checkout flows. Combined smoke, functional, and regression testing with detailed Jira bug reports.</p>
+<div class="project-meta">
+<div class="project-meta-item"><div class="label">Flows</div><div class="value">8</div></div>
+<div class="project-meta-item"><div class="label">Cases</div><div class="value">75+</div></div>
+<div class="project-meta-item"><div class="label">Bugs</div><div class="value">32</div></div>
+</div>
+</div>
+</article>
+</div>
+</section>
+<!-- CONTACT -->
+<section id="contact">
+<div class="reveal">
+<div class="section-eyebrow"><i class="fas fa-circle"></i> Get in Touch</div>
+<h2 class="section-title">Let's <span class="gradient">connect.</span></h2>
+<p class="section-subtitle">Have a role, project, or just want to chat about QA? I'd love to hear from you.</p>
+</div>
+<div class="contact-grid">
+<div class="contact-info-card reveal">
+<h3>Contact Information</h3>
+<p>Reach out through any of these channels — I usually respond within 24 hours.</p>
+<div class="contact-list">
+<a class="contact-item" href="mailto:abdallahmead0@gmail.com">
+<div class="contact-icon"><i class="fas fa-envelope"></i></div>
+<div class="contact-item-text">
+<div class="contact-item-label">Email</div>
+<div class="contact-item-value">abdallahmead0@gmail.com  </div>
+</div>
+</a>
+<a class="contact-item" href="tel:+201022656255">
+<div class="contact-icon"><i class="fas fa-phone"></i></div>
+<div class="contact-item-text">
+<div class="contact-item-label">Phone</div>
+<div class="contact-item-value">+201022656255</div>
+</div>
+</a>
+<a class="contact-item" href="https://wa.me/201022656255" rel="noopener" target="_blank">
+<div class="contact-icon">
+<i class="fab fa-whatsapp"></i>
+</div>
+<div class="contact-item-text">
+<div class="contact-item-label">WhatsApp</div>
+<div class="contact-item-value">+20 1022656255</div>
+</div>
+</a>
+<a class="contact-item" href="https://www.linkedin.com/in/abdallah-meaad/" rel="noopener" target="_blank">
+<div class="contact-icon"><i class="fab fa-linkedin-in"></i></div>
+<div class="contact-item-text">
+<div class="contact-item-label">LinkedIn</div>
+<div class="contact-item-value">ABdallah MEaad</div>
+</div>
+</a>
+<a class="contact-item" href="https://github.com/ABdallahMEaad" rel="noopener" target="_blank">
+<div class="contact-icon"><i class="fab fa-github"></i></div>
+<div class="contact-item-text">
+<div class="contact-item-label">GitHub</div>
+<div class="contact-item-value">ABdallah MEaad</div>
+</div>
+</a>
+<div class="contact-item">
+<div class="contact-icon"><i class="fas fa-location-dot"></i></div>
+<div class="contact-item-text">
+<div class="contact-item-label">Location</div>
+<div class="contact-item-value">Cairo · Remote-friendly</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FOOTER -->
+<footer class="footer">
+<div class="footer-content">
+<div class="footer-brand">
+<h3>ABDALLAH<span style="color: var(--text-primary); -webkit-text-fill-color: var(--text-primary);">.mead</span></h3>
+<p>Junior QA Software Engineer on a mission to ship software that simply works. Always learning, always testing.</p>
+<div class="footer-socials">
+<a aria-label="GitHub" href="https://github.com/ABdallahMEaad" rel="noopener" target="_blank"><i class="fab fa-github"></i></a>
+<a aria-label="LinkedIn" href="https://www.linkedin.com/in/abdallah-meaad/" rel="noopener" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+<a aria-label="WhatsApp" href="https://wa.me/201022656255" rel="noopener" target="_blank"><i class="fab fa-whatsapp"></i></a>
+<a aria-label="Email" href="mailto:abdallahmead0@gmail.com"><i class="fas fa-envelope"></i></a>
+</div>
+</div>
+<div class="footer-col">
+<h4>Navigate</h4>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#experience">Journey</a></li>
+<li><a href="#projects">Projects</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>Connect</h4>
+<ul>
+<li><a href="#contact">Contact</a></li>
+<li><a href="#certifications">Certifications</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#languages">Languages</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<div>© 2026 Abdallah Mead. Crafted with <span style="color: var(--accent-pink);">♥</span> for quality.</div>
+<div>Thank you for visiting — let's build something great together.</div>
+</div>
+</footer>
+<button aria-label="Back to top" class="back-to-top" id="backToTop">
+<i class="fas fa-arrow-up"></i>
+</button>
+
+<script src="js/main.js"></script></body>
+</html>
