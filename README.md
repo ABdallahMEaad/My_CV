@@ -117,7 +117,7 @@ https://www.linkedin.com/in/abdallah-meaad/
 https://github.com/AbdallahMEaad
 
 📍 Location:
-10th of Ramadan City, Egypt
+Cairo, Egypt
 
 ---
 
