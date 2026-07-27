@@ -110,13 +110,7 @@ The website is optimized for:
 
 Junior QA Software Engineer
 
-📧 Email
-
-your-email@example.com
-
-📱 Phone
-
-+20 XXX XXX XXXX
+Email: abdallahmead0@gmail.com 
 
 💼 LinkedIn
 
